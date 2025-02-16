@@ -75,7 +75,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="text-sm font-medium">Team Productivity</div>
-                  <div className="text-2xl font-bold text-purple-600">87%</div>
+                  <div className="text-2xl font-bold text-purple-600">88%</div>
                 </div>
               </div>
             </CardContent>
