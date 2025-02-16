@@ -232,13 +232,13 @@ export default function EmployeeInsightsPage() {
             </TableBody>
           </Table>
         </CardContent>
-        
-      </Card>
-      <CardFooter className="flex justify-start">
+        <CardFooter className="flex justify-start">
         <Button asChild>
           <Link href="/">Return to Dashboard</Link>
         </Button>
-      </CardFooter>    
+      </CardFooter> 
+      </Card>
+   
     </div>
   )
 } 
