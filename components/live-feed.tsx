@@ -81,10 +81,11 @@ export function LiveFeed() {
         </Button>
       </CardHeader>
       <CardContent>
-        <div className="relative aspect-video bg-muted rounded-lg overflow-hidden">
+        <div className="relative aspect-video bg-muted rounded-lg overflow-hidden h-100 w-100 opacity-100 mb-4 flex items-center justify-center">
           <img
             ref={videoRef}
-            className="w-full h-full object-cover"
+            className="max-w-full max-h-full object-contain"
+            src="/images/camera-placeholder.png"
             alt="Live feed"
           />
           {isStreaming && (
@@ -93,6 +94,7 @@ export function LiveFeed() {
             </div>
           )}
         </div>
+
       </CardContent>
     </Card>
   )
