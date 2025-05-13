@@ -9,6 +9,12 @@ export function MainNav({ className, ...props }: React.HTMLAttributes<HTMLElemen
         Dashboard
       </Link>
       <Link
+        href="/employees"
+        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+      >
+        Employees
+      </Link>
+      <Link
         href="/roi-visualization"
         className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
       >
